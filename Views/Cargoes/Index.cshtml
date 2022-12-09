@@ -1,0 +1,35 @@
+﻿@model IEnumerable<Sitio_Web_Core_MVC_CRUD_EF.Models.Cargo>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Cargos</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary" >Crear Nuevo Cargo</a>
+</p>
+<table class="table table-bordered table-dark">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NameCargo)
+            </th>
+            <th>Operaciones</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NameCargo)
+            </td>
+            <td>
+                    <a asp-action="Edit" asp-route-id="@item.IdCargo" class="btn btn-warning" >Editar</a> |
+                    <a asp-action="Details" asp-route-id="@item.IdCargo" class="btn btn-info" >Detalles</a> |
+                    <a asp-action="Delete" asp-route-id="@item.IdCargo" class="btn btn-danger">Borrar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

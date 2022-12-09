@@ -1,0 +1,77 @@
+﻿@model IEnumerable<Sitio_Web_Core_MVC_CRUD_EF.Models.Sede>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Sedes</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Crear Sede</a>
+</p>
+<table class="table table-bordered table-dark">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ciudad)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ResponsableTI)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Contacto)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pa)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OrdenInt)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cuenta)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Empresa)
+            </th>
+            <th>Operaciones</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ciudad)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ResponsableTI)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Contacto)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Pa)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OrdenInt)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cuenta)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Empresa.Nombre)
+            </td>
+            <td>
+                    <a asp-action="Edit" asp-route-id="@item.IdSede" class="btn btn-primary">Editar</a> |
+                    <a asp-action="Details" asp-route-id="@item.IdSede" class="btn btn-info" >Detalles</a> |
+                    <a asp-action="Delete" asp-route-id="@item.IdSede" class="btn btn-danger">Borrar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

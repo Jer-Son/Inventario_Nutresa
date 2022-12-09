@@ -1,0 +1,89 @@
+﻿@model IEnumerable<Sitio_Web_Core_MVC_CRUD_EF.Models.Leasing>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Lista de leasing</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Crear leasing</a>
+</p>
+<table class="table table-bordered table-dark">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Analista)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaInicio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaFinal)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Propiedad)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Estado)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UsuarioRed)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Fecha)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Observacion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Usuario.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Equipo)
+            </th>
+            <th>Operaciones</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Analista)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaInicio)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaFinal)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Propiedad)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Estado)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UsuarioRed)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Fecha)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Observacion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Usuario.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Equipo.NombreMaquina)
+            </td>
+            <td>
+                    <a asp-action="Edit" asp-route-id="@item.IdLeasing" class="btn btn-primary" >Editar</a> |
+                    <a asp-action="Details" asp-route-id="@item.IdLeasing" class="btn btn-info">Detalles</a> |
+                    <a asp-action="Delete" asp-route-id="@item.IdLeasing" class="btn btn-danger">Borrar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

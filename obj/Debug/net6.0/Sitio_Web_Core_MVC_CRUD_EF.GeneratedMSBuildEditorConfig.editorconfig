@@ -1,0 +1,304 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Sitio_Web_Core_MVC_CRUD_EF
+build_property.RootNamespace = Sitio_Web_Core_MVC_CRUD_EF
+build_property.ProjectDir = C:\Users\NCSSPRTISEBO\Desktop\PruebasNet\Sitio_Web_Core_MVC_CRUD_EF\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\NCSSPRTISEBO\Desktop\PruebasNet\Sitio_Web_Core_MVC_CRUD_EF
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/Areas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJlYXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/Areas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJlYXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/Areas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJlYXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/Areas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJlYXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/Areas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJlYXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/Cargoes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZ29lc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/Cargoes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZ29lc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/Cargoes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZ29lc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/Cargoes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZ29lc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/Cargoes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZ29lc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/Contratoes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHJhdG9lc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/Contratoes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHJhdG9lc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/Contratoes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHJhdG9lc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/Contratoes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHJhdG9lc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/Contratoes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHJhdG9lc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/Empresas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVzYXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/Empresas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVzYXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/Empresas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVzYXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/Empresas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVzYXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/Empresas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVzYXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/Equipoes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBvZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/Equipoes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBvZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/Equipoes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBvZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/Equipoes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBvZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/Equipoes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBvZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/LeasingPerifericos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhc2luZ1BlcmlmZXJpY29zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/LeasingPerifericos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhc2luZ1BlcmlmZXJpY29zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/LeasingPerifericos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhc2luZ1BlcmlmZXJpY29zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/LeasingPerifericos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhc2luZ1BlcmlmZXJpY29zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/LeasingPerifericos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhc2luZ1BlcmlmZXJpY29zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/LeasingSoftwares/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhc2luZ1NvZnR3YXJlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/LeasingSoftwares/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhc2luZ1NvZnR3YXJlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/LeasingSoftwares/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhc2luZ1NvZnR3YXJlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/LeasingSoftwares/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhc2luZ1NvZnR3YXJlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/LeasingSoftwares/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhc2luZ1NvZnR3YXJlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/Leasings/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhc2luZ3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/Leasings/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhc2luZ3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/Leasings/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhc2luZ3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/Leasings/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhc2luZ3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/Leasings/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhc2luZ3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/Operacions/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BlcmFjaW9uc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/Operacions/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BlcmFjaW9uc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/Operacions/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BlcmFjaW9uc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/Operacions/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BlcmFjaW9uc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/Operacions/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BlcmFjaW9uc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/Perifericoes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyaWZlcmljb2VzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/Perifericoes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyaWZlcmljb2VzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/Perifericoes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyaWZlcmljb2VzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/Perifericoes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyaWZlcmljb2VzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/Perifericoes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyaWZlcmljb2VzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/Sedes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VkZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/Sedes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VkZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/Sedes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VkZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/Sedes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VkZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/Sedes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VkZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/Softwares/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29mdHdhcmVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/Softwares/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29mdHdhcmVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/Softwares/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29mdHdhcmVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/Softwares/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29mdHdhcmVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/Softwares/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29mdHdhcmVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/Usuarios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/Usuarios/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/Usuarios/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/Usuarios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/Usuarios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NCSSPRTISEBO/Desktop/PruebasNet/Sitio_Web_Core_MVC_CRUD_EF/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-e9s60c688l

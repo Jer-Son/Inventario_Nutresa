@@ -1,0 +1,41 @@
+﻿@model IEnumerable<Sitio_Web_Core_MVC_CRUD_EF.Models.LeasingPerifericos>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Lista de perifericos de leasing</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Agregar Periferico al leasing</a>
+</p>
+<table class="table table-bordered table-dark">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Periferico)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Leasing)
+            </th>
+            <th>Operaciones</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Periferico.PerifericoName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Leasing.UsuarioRed)
+            </td>
+            <td>
+                    <a asp-action="Edit" asp-route-id="@item.IdLeasingPerifericos" class="btn btn-primary">Editar</a> |
+                    <a asp-action="Details" asp-route-id="@item.IdLeasingPerifericos" class="btn btn-info">Detalles</a> |
+                    <a asp-action="Delete" asp-route-id="@item.IdLeasingPerifericos" class="btn btn-danger">Borrar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

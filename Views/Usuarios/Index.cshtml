@@ -1,0 +1,83 @@
+﻿@model IEnumerable<Sitio_Web_Core_MVC_CRUD_EF.Models.Usuario>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Lista de Usuarios</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Crear Nuevo usuario</a>
+</p>
+<form asp-controller="Usuarios" asp-action="Index" method="get">
+    <p>
+        <input type="text" name="buscar"  class="form-text"/>
+        <input type="submit" value="Buscar" class="btn btn-sm btn-dark" />
+    </p>
+</form>
+<table class="table table-bordered table-dark" id="mytable">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Cedula)
+            </th>
+            <th>
+                Nombre
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Correo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.celular)
+            </th>
+            <th>
+                Extension
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Operacion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Sede)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cargo)
+            </th>
+            <th>Operaciones</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cedula)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Correo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.celular)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.extenseion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Operacion.OperacionName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sede.Nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cargo.NameCargo)
+            </td>
+            <td>
+                    <a asp-action="Edit" asp-route-id="@item.IdUsuario" class="btn btn-primary">Editar</a> |
+                    <a asp-action="Details" asp-route-id="@item.IdUsuario" class="btn btn-info">Detalles</a> |
+                    <a asp-action="Delete" asp-route-id="@item.IdUsuario" class="btn btn-danger">Borrar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

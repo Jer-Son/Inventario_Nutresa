@@ -1,0 +1,77 @@
+﻿@model Sitio_Web_Core_MVC_CRUD_EF.Models.Equipo
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Equipo</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="NombreMaquina" class="control-label"></label>
+                <input asp-for="NombreMaquina" class="form-control" />
+                <span asp-validation-for="NombreMaquina" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Modelo" class="control-label"></label>
+                <input asp-for="Modelo" class="form-control" />
+                <span asp-validation-for="Modelo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Serial" class="control-label"></label>
+                <input asp-for="Serial" class="form-control" />
+                <span asp-validation-for="Serial" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Marca" class="control-label"></label>
+                <input asp-for="Marca" class="form-control" />
+                <span asp-validation-for="Marca" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Procesador" class="control-label"></label>
+                <input asp-for="Procesador" class="form-control" />
+                <span asp-validation-for="Procesador" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Ram" class="control-label"></label>
+                <input asp-for="Ram" class="form-control" />
+                <span asp-validation-for="Ram" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Referencia" class="control-label"></label>
+                <input asp-for="Referencia" class="form-control" />
+                <span asp-validation-for="Referencia" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Disco" class="control-label"></label>
+                <input asp-for="Disco" class="form-control" />
+                <span asp-validation-for="Disco" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Tipo" class="control-label"></label>
+                <input asp-for="Tipo" class="form-control" />
+                <span asp-validation-for="Tipo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ContratoId" class="control-label"></label>
+                <select asp-for="ContratoId" class ="form-control" asp-items="ViewBag.ContratoId"></select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

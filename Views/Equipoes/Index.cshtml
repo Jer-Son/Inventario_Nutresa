@@ -1,0 +1,89 @@
+﻿@model IEnumerable<Sitio_Web_Core_MVC_CRUD_EF.Models.Equipo>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Equipos</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Crear Equipo</a>
+</p>
+<table class="table table-bordered table-dark">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NombreMaquina)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Modelo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Serial)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Marca)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Procesador)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ram)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Referencia)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Disco)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tipo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Contrato)
+            </th>
+            <th>Operaciones</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NombreMaquina)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Modelo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Serial)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Marca)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Procesador)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ram)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Referencia)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Disco)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tipo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Contrato.NameContrato)
+            </td>
+            <td>
+                    <a asp-action="Edit" asp-route-id="@item.IdEquipo" class="btn btn-primary">Editar</a> |
+                    <a asp-action="Details" asp-route-id="@item.IdEquipo" class="btn btn-info" >Detalles</a> |
+                    <a asp-action="Delete" asp-route-id="@item.IdEquipo" class="btn btn-danger" >Borrar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

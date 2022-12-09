@@ -1,0 +1,41 @@
+﻿@model IEnumerable<Sitio_Web_Core_MVC_CRUD_EF.Models.LeasingSoftware>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Lista de software de leasings</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Agregar software al leasing</a>
+</p>
+<table class="table table-bordered table-dark">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Software)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Leasing)
+            </th>
+            <th>Operaciones</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Software.SoftwareName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Leasing.UsuarioRed)
+            </td>
+            <td>
+                    <a asp-action="Edit" asp-route-id="@item.IdLeasingSoftware" class="btn btn-primary">Editar</a> |
+                    <a asp-action="Details" asp-route-id="@item.IdLeasingSoftware" class="btn btn-info" >Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.IdLeasingSoftware" class="btn btn-danger">Borrar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

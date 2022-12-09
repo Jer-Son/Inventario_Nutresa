@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Inventario De equipos Nutresa</title>
+    
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Sitio_Web_Core_MVC_CRUD_EF.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header> 
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+              <div>
+                    <span>
+                        <img style="height:50px;width:50px;" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxEHEBUTExIVExUVFRUVFhcXFhUXHhcXGRUbGRceGRcYHSkgGhooGxcaIjEhJikrLi4uFx80OzQsOCgtLisBCgoKDg0OGhAQGy4jICUtLS0tLS0vLS0rLS0tLS0tKy8tLS0tLS0tLS0tLS0vLS0tLS0tLS0tLS0tLS0tLS0tK//AABEIAOEA4QMBIgACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAABQYBAwQHAv/EAEEQAAEDAgQDBQUDCgYDAQAAAAEAAgMEEQUSITEGQVETImFxgQcUMpGhI0KxFTNScnOCkqKywTQ1U2Kz0UPC4Rb/xAAYAQEBAQEBAAAAAAAAAAAAAAAAAQMCBP/EAC4RAAIBAgMGBQQDAQAAAAAAAAABAgMREiExQVFhcYGhBJHB0eETMrHwFEJSIv/aAAwDAQACEQMRAD8A9xREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAERapZWwNLnENaBckmwA8SUBtRcNBikGIX7KRr7bgHUei7bqJpq6Immroyi0Gdofkv3i3MB1ANjbrYkX8x1XPX4rBQECWRjCdgTr526eKNpahtLNnei1xyCQAgggi4I1BHgVsVKEREAREQBERAEREAREQBERAEREAREQBERAEREARfJNlz01bFWX7ORj7b5XNdbzsdEB0FwbvooDjGjkxKkLYe8Q5ri0Ed4A6jz528FJuqGVEroCA6zGucCLiziQAQf1T9FWsX4akw8mehc6Nw1dE06H9UHQ/qnTp0WNV3i0ldbba9DGq7xdldbba9CI4Nw2einM8jHxxsjeXlwIv3dgDqdr+itPC0b6phqpiTJNctHKOO/da0cr7k89FxYVj3/AOhppoSA2fs3tyjZ12kXbfx3HJWPDIuwgjba2WNot0s0LOhCKSwu6166djPw8IpLC7rXr8ENxhL7kIJ27xzAHxY8EPHrYKscZYNUvq3yNjfI2TLlLQTazQLG22o+qt/FNC7EIWMFg3tGOkJIAbG25cdVDVXFcuITdhRMDif/ACO6DcgHQN8T8tlzXjF3UttrW1vy5HNeMXdS22tb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" alt="servicios" />
+
+                    </span>
+                      
+              </div>  
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Empresas" asp-action="Index">Empresas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Sedes" asp-action="Index">Sedes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Areas" asp-action="Index">Areas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Operacions" asp-action="Index">Operaciones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Usuarios" asp-action="Index">Usuarios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Cargoes" asp-action="Index">Cargos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Contratoes" asp-action="Index">Contrato</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Equipoes" asp-action="Index">Equipos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Perifericoes" asp-action="Index">Perifericos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="LeasingPerifericos" asp-action="Index">Perifericos Leasing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Softwares" asp-action="Index">Softwares</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="LeasingSoftwares" asp-action="Index">Software Leasing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Leasings" asp-action="Index">Leasings</a>
+                        </li>
+                </div>
+            </div>
+        </nav>
+        
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2022 - Servicios Nutresa Soporte T.I - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

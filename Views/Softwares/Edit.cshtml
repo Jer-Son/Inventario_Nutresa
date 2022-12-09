@@ -1,0 +1,44 @@
+﻿@model Sitio_Web_Core_MVC_CRUD_EF.Models.Software
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Software</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="IdSoftware" />
+            <div class="form-group">
+                <label asp-for="SoftwareName" class="control-label"></label>
+                <input asp-for="SoftwareName" class="form-control" />
+                <span asp-validation-for="SoftwareName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Softwarelicencia" class="control-label"></label>
+                <input asp-for="Softwarelicencia" class="form-control" />
+                <span asp-validation-for="Softwarelicencia" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SoftwareVersion" class="control-label"></label>
+                <input asp-for="SoftwareVersion" class="form-control" />
+                <span asp-validation-for="SoftwareVersion" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
